@@ -1,0 +1,102 @@
+# Noami — Generative Engine Optimization Map
+
+> A vibrant and stylish online jewelry store targeting teenage girls and young women. The brand emphasizes accessibility, beauty, and variety — offering a wide range of trendy and cool jewelry pieces. The store is organized around collections, with a youthful and fashionable vibe that speaks directly to a young female audience looking for affordable yet stylish accessories.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+חנות התכשיטים האונליין הכי סטיילית לנערות ונשים צעירות! קולקציות מגניבות, מחירים נגישים ועיצובים עדכניים שיגרמו לך להרגיש מיוחדת. קני עכשיו ותגלי את הסטייל שלך!
+
+### קולקציות
+https://example.com/collections
+עיצובים חדשים, טרנדים עכשוויים וסגנונות שמדברים אלייך! גלי את כל קולקציות התכשיטים של Noami — מעגילים ועד שרשראות, כל פיס מחכה לך. מצאי את האהבה שלך עוד היום!
+
+### אודות
+https://example.com/about
+Noami נולדה מתוך אהבה לאופנה, נגישות ויופי אמיתי לכל נערה. גלי מי אנחנו, מה מניע אותנו וכיצד אנו יוצרים תכשיטים שמספרים סיפור. כי כל אישה צעירה ראויה לזהור!
+
+### צור קשר
+https://example.com/contact
+יש שאלה, הצעה או סתם רוצה לשמוע עוד על הקולקציות החדשות? צוות Noami כאן בשבילך! צרי קשר עכשיו ונחזור אלייך במהירות — כי השירות שלנו מבריק כמו התכשיטים שלנו.
+
+### Products
+https://example.com/products
+המוצרים שלנו - Noami
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Noami
+
+### Category
+https://example.com/category/:slug
+מוצרים - Noami
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Noami
+A vibrant and stylish online jewelry store targeting teenage girls and young women. The brand emphasizes accessibility, beauty, and variety — offering a wide range of trendy and cool jewelry pieces. The store is organized around collections, with a youthful and fashionable vibe that speaks directly to a young female audience looking for affordable yet stylish accessories.
+
+## Target Audience
+- נערות ונשים צעירות
+- נשים צעירות חובבות אופנה
+- מחפשי מתנות
+- אוהבים לקנות אונליין
+- אוהבים מחירים נגישים
+
+## Industry
+E-commerce / Jewelry
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
