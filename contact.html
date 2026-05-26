@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "702b44a3-35d2-410a-b251-be5428893d7d";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "702b44a3-35d2-410a-b251-be5428893d7d";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -855,7 +855,7 @@
 </script>
   
   <main id="main">
-    <section class="contact-intro-section" data-layout-spec="צור קשר-intro" dir="rtl">
+    <section class="contact-intro-section" data-layout-spec="צור קשר-intro" dir="rtl" id="contact-intro-section">
   <div class="contact-intro-container">
 
     <!-- Decorative sparkle accent -->
@@ -867,7 +867,7 @@
 
     <!-- Heading block -->
     <div class="contact-intro-heading-block">
-      <p class="contact-intro-label">צרו קשר</p>
+      <p class="contact-intro-label" style="color: rgb(32, 33, 36) !important;">צרו קשר</p>
       <h1 class="contact-intro-h1">שמחים לשמוע מכן ✨</h1>
       <p class="contact-intro-desc">יש לכן שאלה על קולקציה מסוימת? מחפשות מתנה מושלמת? רוצות לדעת על זמינות של פריט? אנחנו כאן בשבילכן — כתבו לנו ונשמח לעזור בכל עניין.</p>
     </div>
@@ -876,7 +876,7 @@
     <div class="contact-info-cards">
 
       <!-- Email card -->
-      <article class="contact-info-card">
+      <article class="contact-info-card" data-grid-item-index="0">
         <div class="contact-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <rect x="2" y="4" width="20" height="16" rx="2"></rect>
@@ -891,7 +891,7 @@
       </article>
 
       <!-- Phone card -->
-      <article class="contact-info-card">
+      <article class="contact-info-card" data-grid-item-index="1">
         <div class="contact-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path>
@@ -905,7 +905,7 @@
       </article>
 
       <!-- Social card -->
-      <article class="contact-info-card">
+      <article class="contact-info-card" data-grid-item-index="2">
         <div class="contact-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <rect x="2" y="2" width="20" height="20" rx="5"></rect>
@@ -914,7 +914,7 @@
           </svg>
         </div>
         <div class="contact-card-body">
-          <h3 class="contact-card-title">אינסטגרם ו-WhatsApp</h3>
+          <h3 class="contact-card-title" style="">אינסטגרם, טיקטוק</h3>
           <p class="contact-card-text">עקבו אחרינו לעדכונים, קולקציות חדשות ומבצעים</p>
           
         </div>
@@ -1153,7 +1153,7 @@
       <div class="footer-col footer-brand">
         <img src="/assets/noami-e-commerce-jewelry-logo.webp" alt="Noami" class="logo" data-element-type="image" data-element-id="img-1779706512342-x0c5mmx5d" data-zappy-footer-image="true">
         <p class="footer-tagline">תכשיטים שמספרים את הסיפור שלך — עיצוב עדין, יופי נצחי.</p>
-        <div class="footer-badges" >
+        <div class="footer-badges" style="">
           <span class="badge"><i class="fas fa-truck" data-element-type="icon" data-element-id="icon-1779706512341-wyc4o6kl3" data-icon-type="fontawesome" style="cursor: pointer;"></i> משלוח חינם</span>
           <span class="badge"><i class="fas fa-headset" data-element-type="icon" data-element-id="icon-1779706512341-xcu8n6k7p" data-icon-type="fontawesome" style="cursor: pointer;"></i> תמיכה 24/7</span>
         </div>
